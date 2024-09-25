@@ -1,0 +1,552 @@
+body {
+    font-family: sans-serif;
+}
+
+.d1 {
+    width: 100%;
+    height: 50px;
+}
+
+.d1>img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+#d1d1 {
+    float: left;
+    height: 50px;
+    width: 24%;
+}
+
+#d1d1a1 {
+    float: left;
+    padding: 16px;
+}
+
+#d1d1a1>a {
+    text-decoration: none;
+    color: black;
+}
+
+#d1d1a1:hover {
+    background-color: rgb(25, 189, 126);
+}
+
+#d1d1a1>a:hover {
+    color: white;
+}
+
+#s1 {
+    padding-left: 20px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 50px;
+    margin-top: 10px;
+    height: 35px;
+    float: left;
+}
+
+#d1d2 {
+    margin-top: 6px;
+    height: 42px;
+    width: 30.114%;
+    float: right;
+}
+
+#get {
+    height: 25px;
+    float: left;
+    font-size: 19px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+
+#get:hover {
+    background-color: rgb(235, 237, 240);
+}
+
+#get>a {
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    border-radius: 40px;
+    font-size: 19px;
+    float: right;
+    height: auto;
+    width: 150px;
+    padding: 7px 10px;
+    margin-right: 10px;
+}
+
+#login:hover {
+    background-color: rgb(25, 189, 126);
+}
+
+#login>a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#login>a:hover {
+    color: white;
+}
+
+.d2 {
+    overflow: hidden;
+    padding-top: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 31px;
+    background-color: rgb(43, 42, 42);
+}
+
+.d2>a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 6px;
+    font-size: 18px;
+}
+
+.d2>a:hover {
+    background-color: black;
+}
+
+.d2>a:active {
+    background-color: green;
+}
+
+.d3 {
+    font-family: sans-serif;
+    position: fixed;
+    overflow: auto;
+    height: 690px;
+    width: 21%;
+    background-color: rgb(237, 240, 241);
+}
+
+.d3>h2 {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.d3>a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 35px;
+}
+
+.d3>a:hover {
+    background-color: rgb(182, 181, 176);
+}
+
+.d3>a:active {
+    background-color: rgb(2, 138, 43);
+    color: white;
+}
+
+.d4 {
+    overflow: auto;
+    position: fixed;
+    right: 8px;
+    height: 682px;
+    width: 78%;
+
+}
+
+#d4d1 {
+    padding: 10px 30px;
+}
+
+#d4b1 {
+    font-size: 19px;
+    padding: 12px;
+    background-color: rgb(88, 197, 121);
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+#d4d1>h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#d4b1:hover,
+#d4b2:hover,
+#d4b3:hover {
+    background-color: rgb(8, 143, 69);
+}
+
+#d4b2 {
+    font-size: 19px;
+    padding: 12px;
+    background-color: rgb(88, 197, 121);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    float: right;
+}
+
+hr {
+    margin-top: 20px;
+    width: 97%;
+}
+
+#sp1 {
+    color: blue;
+}
+
+#sp2 {
+    color: brown;
+}
+
+#sp3 {
+    color: red;
+}
+
+#sp4 {
+    color: green;
+}
+
+.d4d2 {
+    padding: 30px;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+}
+
+.d4d2>h1 {
+    font-weight: 500;
+}
+
+.d4d2>p {
+    font-size: 19px;
+}
+
+.d4d2>p>span {
+    color: brown;
+    background-color: azure;
+}
+
+#d4d3 {
+    border-radius: 6px;
+    margin: 15px;
+    padding: 30px 15px;
+    background-color: rgba(161, 161, 161, 0.555);
+}
+
+.d4d3 {
+    background-color: white;
+    padding: 2px 5px;
+    margin-bottom: 30px;
+    border-left: 4px solid green;
+}
+
+#d4b3 {
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 19px;
+    padding: 12px;
+    background-color: rgba(15, 194, 45, 0.863);
+    color: white;
+    border-radius: 6px;
+}
+
+#d4d3>p>span {
+    color: red;
+    background-color: azure;
+}
+
+#d4d4 {
+    background-color: rgba(255, 255, 0, 0.171);
+    padding: 20px 30px;
+}
+
+#d4d4>p>span {
+    color: brown;
+    background-color: azure;
+}
+
+li {
+    font-size: 22px;
+}
+
+li>span {
+    color: brown;
+    background-color: azure;
+}
+
+#d4d5 {
+    background-color: rgba(44, 243, 144, 0.329);
+    padding: 30px;
+}
+
+#d4d5>p>span {
+    background-color: azure;
+    color: brown;
+}
+
+.dd44 {
+    padding: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgb(185, 184, 184);
+}
+
+td {
+    padding: 7px 1px;
+    margin-right: 50px;
+    font-size: 22px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(212, 208, 208);
+}
+.d5{
+    width: 97%;
+    background-color: rgb(197, 197, 241);
+    height: 35%;
+    margin-left: 20px;
+}
+#d5d1>p{
+    padding: 30px;
+    font-size: 17px;
+}
+#d5d1>p>span{
+    color: brown;
+}
+#d2d1>p>a:hover{
+    color: green;
+}
+p>span{
+    color: brown;
+}
+.d6{
+    background-color: rgb(173, 198, 207);
+    width: 97%;
+    height: 45%;
+    margin-left: 20px;
+}
+#d6d2{
+    background-color: white;
+    width: 70%;
+    height: 47%;
+    margin-left: 30px;
+    border-left: 6px solid green;
+}
+#d6d2>p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.d7{
+    background-color: rgb(177, 217, 233);
+    height: 25%;
+    width: 97%;
+    margin-left: 20px;
+}
+#d7d1{
+    background-color: white;
+    height: 40%;
+    width: 35%;
+    margin-left: 30px;
+    border-left: 6px solid green;
+}
+#d7d1>p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+#d7d2{
+    background-color: rgb(221, 188, 221);
+    height: 25%;
+    width: 97%; 
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#d7d2>h1{
+    padding-top: 20px;
+}
+#d7d3{
+    background-color: white;
+    height: 40%;
+    width: 35%;
+    margin-left: 30px;
+    border-left: 6px solid green;
+}
+#d7d3>p{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.d9{
+    background-color: rgb(245, 210, 146);
+    height: 40%;
+    width: 97%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.d9>p>b{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.d9>p{
+    padding-left:20px ;
+    font-size:20px ;
+}
+.ul{
+    padding-left: 30px;
+}
+.d10>p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.ul1{
+    padding-left: 40px;
+}
+.d12{
+    background-color: rgb(215, 231, 238);
+    height: 60%;
+    width: 97%;
+    margin-left: 20px;
+}
+.d12d1{
+    background-color: white;
+    height: 63%;
+    width: 96%;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-left: 6px solid green;
+    
+}
+.d12d1>p{
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.button{
+    background-color: rgb(1, 121, 1);
+    padding: 20px;
+    width: 15%;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.button>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.d13{
+    background-color: pink;
+    height: 50%;
+    width: 97%;
+    margin-left: 20px;
+
+}
+.d13d1{
+    background-color: white;
+    height: 40%;
+    width: 94%;
+    margin-left: 20px;
+    border-left: 6px solid green;
+}
+.d13d1{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+#table{
+    text-align: center;
+}
+.d15>p{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.d15>h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.d16>p{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.t1{
+    text-align: center;
+    height: 50px;
+    width: 97%;
+}
+.t1 i{
+    padding: 10px;
+}
+.t1 tr:nth-child(even){
+    background-color: azure;
+}
+.d18>p{
+    font-size: 26px;
+}
+.d19{
+ height: 70%;
+ width: 97%;
+ background-color: rgb(156, 193, 207);
+
+}
+.d19>h1{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.d19d1{
+    background-color: white;
+   height: 60%;
+   width: 97%; 
+   margin-left: 20px;
+   border-left: 6px solid green;
+}
+.d19d1>p{
+    padding: 20px;
+    font-size: 20px;
+}
+.d20>p>a>span{
+    color: black;
+    text-decoration: underline;
+}
+.d20>p>a>span:hover{
+    color: green;
+}
+.d20>p{
+    font-size: 20px;
+    margin:40px;
+}
+.d21>p{
+    margin: 30px;
+    font-size: 20px;
+}
+.d21>h1{
+    margin-left: 20px;
+    font-size: 35px;
+}
+.d22>h1{
+    padding: 20px;
+    font-size: 40px;
+}.d22>p{
+    padding: 10px;
+    font-size: 25px;
+}
+.d22d2{
+    height: 70%;
+    width: 97%;
+    background-color: skyblue;
+}
